@@ -24,7 +24,8 @@
   <div class="x-toolbar x-inpage">
     <button id="btnFormat" class="btn btn-primary btn-xs ui-mr-10" @click="format">格式化</button>
     <button id="btnCompress" class="btn btn-success btn-xs ui-mr-10" @click="compress">压缩</button>
-    <button id="btnClear" class="btn btn-danger btn-xs" @click="clearAll">清除</button>
+    <button id="btnClear" class="btn btn-danger btn-xs ui-mr-10" @click="clearAll">清除</button>
+    <button id="btnAiFix" class="btn btn-warning btn-xs ui-mr-10" @click="aiFix">AI修复</button>
     <span class="x-split">|</span>
     <input type="checkbox" v-model="jsonLintSwitch" id="jsonLint" @click="lintOn"><label for="jsonLint">JSONLint</label>
     <span class="x-split">|</span>
@@ -143,6 +144,7 @@
 <script src="json-abc.js"></script>
 <script src="json-decode.js"></script>
 <script src="../static/js/dark-mode.js"></script>
+<script src="env-loader.js"></script>
 <script src="index.js" type="module"></script>
 </body>
 </html>
