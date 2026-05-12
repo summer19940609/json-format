@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="JSON brackets logo">
+  <defs>
+    <linearGradient id="bg" x1="18" y1="12" x2="110" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#10233F"/>
+      <stop offset="0.52" stop-color="#172447"/>
+      <stop offset="1" stop-color="#0B4A56"/>
+    </linearGradient>
+    <linearGradient id="brackets" x1="28" y1="25" x2="100" y2="103" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#CFFAFE"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#07111F" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="128" height="128" rx="26" fill="#07111F"/>
+  <rect x="8" y="8" width="112" height="112" rx="23" fill="url(#bg)" filter="url(#soft-shadow)"/>
+  <path d="M46 27H29V101H46" fill="none" stroke="url(#brackets)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M82 27H99V101H82" fill="none" stroke="url(#brackets)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="55" cy="42" r="4.5" fill="#34D399"/>
+  <path d="M64 42H75" fill="none" stroke="#34D399" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="55" cy="64" r="4.5" fill="#38BDF8"/>
+  <path d="M64 64H77" fill="none" stroke="#38BDF8" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="55" cy="86" r="4.5" fill="#FBBF24"/>
+  <path d="M64 86H73" fill="none" stroke="#FBBF24" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="78" cy="64" r="2.5" fill="#E2E8F0"/>
+</svg>
